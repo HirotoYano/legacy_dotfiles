@@ -23,7 +23,7 @@ else
   echo "required brew or apt-get."
 fi
 
-git clone https://github.com/uji/vimrc.git ~/dotfiles/vimrc
+git clone https://github.com/HirotoYano/vimrc.git ~/dotfiles/vimrc
 sh ~/dotfiles/vimrc/install.sh
 
 cp ~/dotfiles/.tmux.conf.local.sample ~/.tmux.conf.local
